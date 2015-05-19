@@ -1,6 +1,8 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
+Project("{9AA8471B-AE5D-8884-23AF-E2DCB2033642}") = "OculusRift", "Assembly-CSharp-vs.csproj", "{D6F79A00-8B5F-FDB8-E225-5E22216B89FC}"
+EndProject
 Project("{9AA8471B-AE5D-8884-23AF-E2DCB2033642}") = "OculusRift", "Assembly-CSharp-Editor-vs.csproj", "{D725BEE0-B66D-A191-659C-69F0B38BDCEA}"
 EndProject
 Global
@@ -9,6 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6F79A00-8B5F-FDB8-E225-5E22216B89FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6F79A00-8B5F-FDB8-E225-5E22216B89FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6F79A00-8B5F-FDB8-E225-5E22216B89FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6F79A00-8B5F-FDB8-E225-5E22216B89FC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D725BEE0-B66D-A191-659C-69F0B38BDCEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D725BEE0-B66D-A191-659C-69F0B38BDCEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D725BEE0-B66D-A191-659C-69F0B38BDCEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -17,7 +23,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-		GlobalSection(MonoDevelopProperties) = preSolution
+				GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
