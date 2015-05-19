@@ -1,16 +1,8 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
-<<<<<<< HEAD
 Project("{9AA8471B-AE5D-8884-23AF-E2DCB2033642}") = "OculusRift", "Assembly-CSharp.csproj", "{D6F79A00-8B5F-FDB8-E225-5E22216B89FC}"
 EndProject
-=======
-<<<<<<< HEAD
-Project("{9AA8471B-AE5D-8884-23AF-E2DCB2033642}") = "OculusRift", "Assembly-CSharp.csproj", "{D6F79A00-8B5F-FDB8-E225-5E22216B89FC}"
-EndProject
-=======
->>>>>>> origin/master
->>>>>>> 15ed4dd7303c8a7b94fbfe1a653d87a8cafea860
 Project("{9AA8471B-AE5D-8884-23AF-E2DCB2033642}") = "OculusRift", "Assembly-CSharp-Editor.csproj", "{D725BEE0-B66D-A191-659C-69F0B38BDCEA}"
 EndProject
 Global
@@ -19,19 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 15ed4dd7303c8a7b94fbfe1a653d87a8cafea860
 		{D6F79A00-8B5F-FDB8-E225-5E22216B89FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D6F79A00-8B5F-FDB8-E225-5E22216B89FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6F79A00-8B5F-FDB8-E225-5E22216B89FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6F79A00-8B5F-FDB8-E225-5E22216B89FC}.Release|Any CPU.Build.0 = Release|Any CPU
-<<<<<<< HEAD
-=======
-=======
->>>>>>> origin/master
->>>>>>> 15ed4dd7303c8a7b94fbfe1a653d87a8cafea860
 		{D725BEE0-B66D-A191-659C-69F0B38BDCEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D725BEE0-B66D-A191-659C-69F0B38BDCEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D725BEE0-B66D-A191-659C-69F0B38BDCEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -40,8 +23,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-<<<<<<< HEAD
-			GlobalSection(MonoDevelopProperties) = preSolution
+					GlobalSection(MonoDevelopProperties) = preSolution
 =======
 <<<<<<< HEAD
 			GlobalSection(MonoDevelopProperties) = preSolution
@@ -67,12 +49,5 @@ Global
 		$3.inheritsScope = text/plain
 		$3.scope = text/plain
 	EndGlobalSection
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/master
->>>>>>> 15ed4dd7303c8a7b94fbfe1a653d87a8cafea860
 EndGlobal
