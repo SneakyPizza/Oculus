@@ -9,6 +9,7 @@ public class WeaponSwitch : MonoBehaviour
 
 	private int _currentWeapon;
 
+<<<<<<< HEAD
 	List<GameObject> AbilitiesL = new List<GameObject> ();
 
 	void Lists()
@@ -22,14 +23,23 @@ public class WeaponSwitch : MonoBehaviour
 	{
 		Lists ();
 	}
+=======
+	[SerializeField] List<GameObject> AbilitiesL = new List<GameObject> ();
+>>>>>>> 40dccd0e5a7ddab5ca2fc1b01aec820d3ba57065
 	
+
 	// Update is called once per frame
 	void Update () 
 	{
-		if(Input.GetKeyDown(KeyCode.A))
+		if(Input.GetKeyDown(KeyCode.JoystickButton0)) //Flamethrower
 		{
-
+			GameObject.Instantiate(AbilitiesL[0],_Player.transform.position, _Player.transform.rotation);
 		}
-	
+
+		if(Input.GetKeyDown(KeyCode.JoystickButton1)) //Fireball
+		 {
+			GameObject.Instantiate(AbilitiesL[1], _Player.transform.position, _Player.transform.rotation);
+		}
 	}
+	
 }
