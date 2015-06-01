@@ -8,4 +8,12 @@ public class Projectile : MonoBehaviour
 
 	[SerializeField]protected int _dmg = 10;
 	[SerializeField]protected float _speed = 5;
+
+    public int Damage
+    {
+        get
+        {
+            return _dmg;
+        }
+    }
 }

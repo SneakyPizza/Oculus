@@ -6,10 +6,10 @@ using System.Collections.Generic;
 public class Turret : MonoBehaviour 
 {
 	private float _Distance;
+    private Animation _animation;
 
 	[SerializeField] private GameObject _Turret;
 	[SerializeField] private GameObject _Player;
-
 
 	[SerializeField]private GameObject _turretArrow;
 	
@@ -23,6 +23,7 @@ public class Turret : MonoBehaviour
 	void Start()
 	{
 		Lists ();
+        _animation = GetComponent<Animation>();
 	}
 
 	void Update()
@@ -40,6 +41,7 @@ public class Turret : MonoBehaviour
 	{
 		Debug.Log ("pew");
 		GameObject.Instantiate(ProjectileL[Random.Range (0, ProjectileL.Count - 1)], _Turret.transform.position,_Turret.transform.rotation);
+        _animation.Play();
 	}
 
 

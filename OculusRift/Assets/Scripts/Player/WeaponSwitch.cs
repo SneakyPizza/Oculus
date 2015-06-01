@@ -13,8 +13,8 @@ public class WeaponSwitch : MonoBehaviour
 
 	void Lists()
 	{
-		AbilitiesL.Add (FireBall);
-		AbilitiesL.Add (FlameThrower);
+		//AbilitiesL.Add (FireBall);
+		//AbilitiesL.Add (FlameThrower);
 	}
 
 	// Use this for initialization
