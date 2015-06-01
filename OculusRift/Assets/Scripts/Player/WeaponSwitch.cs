@@ -9,27 +9,21 @@ public class WeaponSwitch : MonoBehaviour
 
 	private int _currentWeapon;
 
-	List<GameObject> AbilitiesL = new List<GameObject> ();
-
-	void Lists()
-	{
-		AbilitiesL.Add (FireBall);
-		AbilitiesL.Add (FlameThrower);
-	}
-
-	// Use this for initialization
-	void Start () 
-	{
-		Lists ();
-	}
+	[SerializeField] List<GameObject> AbilitiesL = new List<GameObject> ();
 	
+
 	// Update is called once per frame
 	void Update () 
 	{
-		if(Input.GetKeyDown(KeyCode.A))
+		if(Input.GetKeyDown(KeyCode.JoystickButton0)) //Flamethrower
 		{
-
+			GameObject.Instantiate(AbilitiesL[0],_Player.transform.position, _Player.transform.rotation);
 		}
-	
+
+		if(Input.GetKeyDown(KeyCode.JoystickButton1)) //Fireball
+		 {
+			GameObject.Instantiate(AbilitiesL[1], _Player.transform.position, _Player.transform.rotation);
+		}
 	}
+	
 }

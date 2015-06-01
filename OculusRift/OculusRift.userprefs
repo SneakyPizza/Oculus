@@ -1,13 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player\WeaponSwitch.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player\Abilities\FireBall.cs">
     <Files>
-      <File FileName="Assets\Scripts\Player\Abilities\FlameThrower.cs" Line="11" Column="3" />
-      <File FileName="Assets\Scripts\Player\WeaponSwitch.cs" Line="8" Column="46" />
-      <File FileName="Assets\Scripts\Player\Abilities\FireBall.cs" Line="5" Column="2" />
-      <File FileName="Assets\Scripts\Turret.cs" Line="19" Column="3" />
-      <File FileName="Assets\Scripts\Projectile.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\TurretArrow.cs" Line="10" Column="3" />
+      <File FileName="Assets\Scripts\Player\WeaponSwitch.cs" Line="23" Column="46" />
+      <File FileName="Assets\Scripts\Player\Abilities\FireBall.cs" Line="19" Column="1" />
+      <File FileName="Assets\Scripts\Turret.cs" Line="42" Column="135" />
+      <File FileName="Assets\Scripts\Projectile.cs" Line="6" Column="33" />
+      <File FileName="Assets\Scripts\TurretArrow.cs" Line="11" Column="66" />
+      <File FileName="Assets\Scripts\Player\Movement\PlayerMovement.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

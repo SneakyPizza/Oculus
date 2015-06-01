@@ -3,9 +3,8 @@ using System.Collections;
 
 public class Projectile : MonoBehaviour 
 {
-	//[SerializedField]public int _dmg = 10;
-	//[SerializedField]public int _speed = 5;
+	[SerializeField]protected float _lifeTime = 20;	//base lifespan
+	[SerializeField]protected int _dmg = 10;		//base dmg
+	[SerializeField]protected float _speed = 25;	//base speed
 
-	[SerializeField]protected int _dmg = 10;
-	[SerializeField]protected float _speed = 5;
 }
